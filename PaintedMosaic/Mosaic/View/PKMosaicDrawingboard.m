@@ -217,7 +217,8 @@
     CGFloat hScale = (size.height / originRect.size.height) ?: 1;
     [self.mosaicImageView.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         if (obj) {
-            obj.frame = CGRectMake(obj.frame.origin.x * wScale, obj.frame.origin.y * hScale, obj.frame.size.width * wScale, obj.frame.size.height * hScale);
+            obj.bounds = CGRectMake(0, 0, obj.bounds.size.width * wScale, obj.bounds.size.height * hScale);
+            obj.center = CGPointMake(obj.center.x * wScale, obj.center.y * hScale);
         }
     }];
     self.mosaicImageView.frame = CGRectMake(originRect.origin.x, originRect.origin.y, size.width, size.height);

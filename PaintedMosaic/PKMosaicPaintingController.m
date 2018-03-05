@@ -45,7 +45,7 @@
     // 默认开始编辑
     [self.mosaicDrawingboard beginPaint];
     // 默认开始选中第三个笔触
-    [self.bottomToolBar setSelectBrushIndex:2];
+    [self.bottomToolBar setSelectBrushIndex:1];
 }
 
 #pragma mark - private method
