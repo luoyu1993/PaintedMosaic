@@ -5,7 +5,7 @@
 //
 
 #import "PKShareBottomToolBar.h"
-#import "UIColor+Extension.h"
+#import "UIColor+MosaicExtension.h"
 #import "PKMosaicButton.h"
 
 static NSInteger const kBrushButtonTag = 100000;

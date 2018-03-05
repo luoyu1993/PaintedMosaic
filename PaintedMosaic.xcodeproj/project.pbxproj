@@ -19,8 +19,8 @@
 		83CBF952204CDD2700350537 /* PKMosaicImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CBF93F204CDD2700350537 /* PKMosaicImageView.m */; };
 		83CBF956204CDD2700350537 /* PKShareTitleBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CBF947204CDD2700350537 /* PKShareTitleBar.m */; };
 		83CBF957204CDD2700350537 /* PKMosaicPaintingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CBF94A204CDD2700350537 /* PKMosaicPaintingController.m */; };
-		83CBF95B204CE2BD00350537 /* UIView+ MosaicExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CBF959204CE2BD00350537 /* UIView+ MosaicExtension.m */; };
-		83CBF95E204CE39000350537 /* UIColor+ MosaicExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CBF95C204CE39000350537 /* UIColor+ MosaicExtension.m */; };
+		83CBF95B204CE2BD00350537 /* UIView+MosaicExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CBF959204CE2BD00350537 /* UIView+MosaicExtension.m */; };
+		83CBF95E204CE39000350537 /* UIColor+MosaicExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CBF95C204CE39000350537 /* UIColor+MosaicExtension.m */; };
 		83CBF961204CE49600350537 /* PKShareBottomToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CBF960204CE49600350537 /* PKShareBottomToolBar.m */; };
 		83CBF96A204D149900350537 /* PKMosaicButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CBF969204D149800350537 /* PKMosaicButton.m */; };
 /* End PBXBuildFile section */
@@ -48,10 +48,10 @@
 		83CBF947204CDD2700350537 /* PKShareTitleBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKShareTitleBar.m; sourceTree = "<group>"; };
 		83CBF949204CDD2700350537 /* PKMosaicPaintingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKMosaicPaintingController.h; sourceTree = "<group>"; };
 		83CBF94A204CDD2700350537 /* PKMosaicPaintingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKMosaicPaintingController.m; sourceTree = "<group>"; };
-		83CBF959204CE2BD00350537 /* UIView+ MosaicExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ MosaicExtension.m"; sourceTree = "<group>"; };
+		83CBF959204CE2BD00350537 /* UIView+MosaicExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MosaicExtension.m"; sourceTree = "<group>"; };
 		83CBF95A204CE2BD00350537 /* UIView+MosaicExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MosaicExtension.h"; sourceTree = "<group>"; };
-		83CBF95C204CE39000350537 /* UIColor+ MosaicExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ MosaicExtension.m"; sourceTree = "<group>"; };
-		83CBF95D204CE39000350537 /* UIColor+ MosaicExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ MosaicExtension.h"; sourceTree = "<group>"; };
+		83CBF95C204CE39000350537 /* UIColor+MosaicExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MosaicExtension.m"; sourceTree = "<group>"; };
+		83CBF95D204CE39000350537 /* UIColor+MosaicExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MosaicExtension.h"; sourceTree = "<group>"; };
 		83CBF95F204CE49600350537 /* PKShareBottomToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKShareBottomToolBar.h; sourceTree = "<group>"; };
 		83CBF960204CE49600350537 /* PKShareBottomToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKShareBottomToolBar.m; sourceTree = "<group>"; };
 		83CBF968204D149800350537 /* PKMosaicButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKMosaicButton.h; sourceTree = "<group>"; };
@@ -126,9 +126,9 @@
 				83CBF935204CDD2700350537 /* UIImage+Mosaic.h */,
 				83CBF936204CDD2700350537 /* UIImage+Mosaic.m */,
 				83CBF95A204CE2BD00350537 /* UIView+MosaicExtension.h */,
-				83CBF959204CE2BD00350537 /* UIView+ MosaicExtension.m */,
-				83CBF95D204CE39000350537 /* UIColor+ MosaicExtension.h */,
-				83CBF95C204CE39000350537 /* UIColor+ MosaicExtension.m */,
+				83CBF959204CE2BD00350537 /* UIView+MosaicExtension.m */,
+				83CBF95D204CE39000350537 /* UIColor+MosaicExtension.h */,
+				83CBF95C204CE39000350537 /* UIColor+MosaicExtension.m */,
 			);
 			path = Function;
 			sourceTree = "<group>";
@@ -229,9 +229,9 @@
 				83CBF922204CDCDD00350537 /* ViewController.m in Sources */,
 				83CBF956204CDD2700350537 /* PKShareTitleBar.m in Sources */,
 				83CBF92D204CDCDE00350537 /* main.m in Sources */,
-				83CBF95E204CE39000350537 /* UIColor+ MosaicExtension.m in Sources */,
+				83CBF95E204CE39000350537 /* UIColor+MosaicExtension.m in Sources */,
 				83CBF91F204CDCDD00350537 /* AppDelegate.m in Sources */,
-				83CBF95B204CE2BD00350537 /* UIView+ MosaicExtension.m in Sources */,
+				83CBF95B204CE2BD00350537 /* UIView+MosaicExtension.m in Sources */,
 				83CBF952204CDD2700350537 /* PKMosaicImageView.m in Sources */,
 				83CBF94F204CDD2700350537 /* MosaicBitmapData.m in Sources */,
 				83CBF94E204CDD2700350537 /* UIImage+Mosaic.m in Sources */,

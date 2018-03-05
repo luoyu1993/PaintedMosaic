@@ -5,7 +5,7 @@
 //
 
 #import "PKShareTitleBar.h"
-#import "UIColor+Extension.h"
+#import "UIColor+MosaicExtension.h"
 
 @implementation PKShareTitleBar
 

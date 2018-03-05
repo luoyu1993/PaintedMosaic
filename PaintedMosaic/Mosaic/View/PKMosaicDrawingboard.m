@@ -7,7 +7,7 @@
 #import "PKMosaicDrawingboard.h"
 #import "UIImage+Mosaic.h"
 #import "PKMosaicImageView.h"
-#import "UIView+Extension.h"
+#import "UIView+MosaicExtension.h"
 #import "MosaicBitmapData.h"
 
 @interface PKMosaicPointModel : NSObject
